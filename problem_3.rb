@@ -3,7 +3,7 @@ def largest_prime_factor num
   if a == :prime
     return num
   else
-    return [largest_prime_factor(a), largest_prime_factor(num / a)].max
+    return [a, largest_prime_factor(num / a)].max
   end
 end
 
