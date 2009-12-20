@@ -1,8 +1,6 @@
 class Main
   answers = [0]
   for i in (1..1000000-1)
-#  for i in (1..13)
-#    puts i
     term = i
     length = 1
     solved = 0
@@ -19,7 +17,6 @@ class Main
         length += 1
       end
     end
-#    puts length
     answers << length
   end
 
